@@ -13,7 +13,7 @@ function App() {
         <h1>React js concepts 2024</h1>
         {/* <ClassBasedComponent/>
         <FunctionalComponent/> */}
-        <ProductList/>
+        <ProductList name="xyz"/>
         
       </div>
     </>

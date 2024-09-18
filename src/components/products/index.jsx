@@ -7,8 +7,12 @@ const ProductList = () => {
         <div>
             <h2>Ecommerce list</h2>
             {/* <ProductItem/> */}
-            
+            <ul>
+                {
+                    dummyProductsData.map(items => <li>{items}</li>)
+                }
+            </ul>
         </div>
     )
 }
-export default ProductLis
+export default ProductList
